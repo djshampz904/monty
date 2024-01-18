@@ -71,5 +71,14 @@ void pop(stack_t **head, unsigned int counter);
 void swap(stack_t **head, unsigned int counter);
 void add(stack_t **head, unsigned int counter);
 void nop(stack_t **head, unsigned int counter);
-
+void sub(stack_t **head, unsigned int counter);
+void _div(stack_t **head, unsigned int counter);
+void multiply(stack_t **head, unsigned int counter);
+void mod(stack_t **head, unsigned int counter);
+void pchar(stack_t **head, unsigned int counter);
+void pstr(stack_t **head, unsigned int counter);
+void rotl(stack_t **head, unsigned int counter);
+void rotr(stack_t **head, unsigned int counter);
+void mqueue(stack_t **head, unsigned int counter);
+void mystack(stack_t **head, unsigned int counter);
 #endif
